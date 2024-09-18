@@ -1,0 +1,84 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+
+
+
+# Diretórios e arquivos gerados automaticamente
+
+# Diretório de saída da build do Vite
+dist/
+
+# Logs
+npm-debug.log*
+bun-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Dependências do Bun e Node.js
+node_modules/
+.bun/
+
+# Cache do Vite e Bun
+.vite/
+.cache/
+.bun-test-cache/
+
+# IDEs e ambientes de desenvolvimento
+.vscode/
+.idea/
+
+# Arquivos de sistema operacional
+.DS_Store
+Thumbs.db
+
+# Configurações do ESLint
+.eslintcache
+
+# Diretórios de build temporários do TypeScript
+*.tsbuildinfo
+
+# Diretórios temporários
+temp/
+tmp/
+
+# Arquivos de lock de pacotes (se usar bun, os locks de npm/yarn podem ser ignorados)
+# Se estiver utilizando outra ferramenta de gerenciamento, ajuste conforme necessário
+package-lock.json
+yarn.lock
+
+# Cache do TypeScript
+*.tsbuildinfo
+
+# Arquivos locais do ambiente de execução
+.env.local
+.env.*.local
+
+# Arquivos de ambiente de produção podem ser versionados, mas variáveis sensíveis devem ser mantidas fora do controle de versão
+.env
+.env.production
+
+
