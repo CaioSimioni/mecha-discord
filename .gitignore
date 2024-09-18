@@ -65,9 +65,7 @@ Thumbs.db
 temp/
 tmp/
 
-# Arquivos de lock de pacotes (se usar bun, os locks de npm/yarn podem ser ignorados)
 # Se estiver utilizando outra ferramenta de gerenciamento, ajuste conforme necessário
-package-lock.json
 yarn.lock
 
 # Cache do TypeScript
